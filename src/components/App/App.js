@@ -66,7 +66,6 @@ export default class App extends Component {
 
             (this.setState(({value, robotValue, matches}) => {
                 value = this.state.value;
-                console.log(value + id)
 
                 if (value <= 3) {
                     matches = 1;
